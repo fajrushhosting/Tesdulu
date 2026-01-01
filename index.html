@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAJRUSH - Linktree</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header dengan teks berjalan -->
+        <header>
+            <div class="profile">
+                <div class="avatar">
+                    <i class="fas fa-user-astronaut"></i>
+                </div>
+                <h1>FAJRUSH</h1>
+                <p class="tagline">Creative Content & Digital Presence</p>
+            </div>
+            
+            <div class="marquee-container">
+                <div class="marquee" id="marqueeText">
+                    SELAMAT DATANG DI WEBSITE FAJRUSH, SELAMAT TAHUN BARU 2026 DAN SELAMAT HARI RAYA NATAL 2025
+                </div>
+            </div>
+            
+            <div class="controls">
+                <button id="editTextBtn">Ganti Teks Berjalan</button>
+                <div id="textEditor" class="text-editor hidden">
+                    <input type="text" id="newMarqueeText" placeholder="Masukkan teks baru di sini...">
+                    <button id="saveTextBtn">Simpan</button>
+                    <button id="resetTextBtn">Reset ke Default</button>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Konten utama dengan link -->
+        <main>
+            <div class="links-container">
+                <a href="https://www.instagram.com/fajrush33" class="link-card" target="_blank">
+                    <div class="link-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="link-content">
+                        <h3>Instagram</h3>
+                        <p>@fajrush33</p>
+                    </div>
+                    <div class="link-arrow">
+                        <i class="fas fa-external-link-alt"></i>
+                    </div>
+                </a>
+                
+                <a href="https://sociabuzz.com/fajrush/tribe" class="link-card" target="_blank">
+                    <div class="link-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="link-content">
+                        <h3>Social Buzz</h3>
+                        <p>Komunitas Fajrush</p>
+                    </div>
+                    <div class="link-arrow">
+                        <i class="fas fa-external-link-alt"></i>
+                    </div>
+                </a>
+                
+                <!-- Link tambahan sebagai contoh -->
+                <div class="link-card coming-soon">
+                    <div class="link-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="link-content">
+                        <h3>Link Lainnya</h3>
+                        <p>Segera hadir...</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="info-box">
+                <h3><i class="fas fa-info-circle"></i> Informasi</h3>
+                <p>Website ini dibuat khusus untuk Fajrush dengan fitur teks berjalan yang dapat diganti sesuai keinginan.</p>
+            </div>
+        </main>
+        
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025-2026 FAJRUSH. Semua hak dilindungi.</p>
+            <div class="festive-icons">
+                <i class="fas fa-tree"></i>
+                <i class="fas fa-glass-cheers"></i>
+                <i class="fas fa-gift"></i>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Script untuk teks berjalan dan fitur edit -->
+    <script src="script.js"></script>
+</body>
+</html>
